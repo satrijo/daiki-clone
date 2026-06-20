@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Daiki Clone",
+	title: "Daiki Media | SEO, Web Development & Digital Growth Agency",
 	description:
-		"A clone of the Daiki website built with Next.js and Tailwind CSS.",
+		"Daiki Media helps businesses improve website performance, SEO visibility, and conversion flow through technical SEO, web development, and performance marketing.",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ export function HeroImage() {
 		"https://www.daikimedia.com/_next/image?url=%2Fimages%2Fabout%2Fhello3.avif&w=640&q=75",
 	];
 	return (
-		<section className="relative isolate">
+		<section className="relative isolate" id="strategy">
 			<Container className="relative z-10 flex flex-col mx-auto text-center items-center">
 				<div
 					aria-hidden="true"
@@ -15,7 +15,7 @@ export function HeroImage() {
 				>
 					<div className="size-87 rounded-full bg-orange-500/20 blur-[145px]" />
 				</div>
-				<div className="mb-20 grid grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-8 lg:mb-40 lg:gap-10">
+				<div className="mb-16 grid grid-cols-1 items-center gap-6 sm:grid-cols-3 sm:gap-8 lg:mb-28 lg:gap-10">
 					{urlImage.map((url) => (
 						<div className="col-span-1" key={url}>
 							<div className="overflow-hidden rounded-md bg-white p-2.5 shadow-box dark:bg-dark-200">
@@ -43,12 +43,20 @@ export function HeroImage() {
 						</div>
 					</div>
 					<div className="max-w-[590px] pb-0 md:col-span-6 md:py-10">
-						<p className="leading-7 text-muted-foreground">
-							We combine technical SEO, web development, content strategy, and
-							conversion-focused design to help businesses grow online. Every
-							project starts with understanding the business goal, then turning
-							that goal into a practical website and marketing strategy.
-						</p>
+						<div className="space-y-4 leading-7 text-muted-foreground">
+							<p>
+								Most websites do not fail because they look bad. They fail
+								because the message, speed, SEO foundation, and conversion path
+								are unclear.
+							</p>
+							<p>
+								We combine technical SEO, web development, content strategy, and
+								conversion-focused design to help businesses grow online. Every
+								project starts with understanding the business goal, then
+								turning that goal into a practical website and marketing
+								strategy.
+							</p>
+						</div>
 					</div>
 				</div>
 			</Container>

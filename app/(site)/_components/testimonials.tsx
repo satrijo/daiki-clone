@@ -3,17 +3,20 @@ import { Reveal } from "@/components/shared/reveal";
 
 const proofPoints = [
 	{
-		name: "SEO Visibility",
+		label: "SEO",
+		name: "Search Visibility",
 		quote:
 			"Improve page structure, technical SEO, and content direction so your website can attract more qualified organic traffic.",
 	},
 	{
-		name: "Website Performance",
+		label: "Speed",
+		name: "Faster Website Experience",
 		quote:
 			"Build faster, clearer pages that support better user experience and stronger conversion paths.",
 	},
 	{
-		name: "Conversion Flow",
+		label: "CRO",
+		name: "Stronger Lead Conversion",
 		quote:
 			"Turn visitors into leads with focused messaging, stronger calls to action, and practical landing page improvements.",
 	},
@@ -21,9 +24,9 @@ const proofPoints = [
 
 export function Testimonials() {
 	return (
-		<section className="relative overflow-hidden py-20 md:py-36">
+		<section className="relative overflow-hidden py-20 md:py-28">
 			<Container className="relative">
-				<div className="mx-auto mb-12 max-w-[550px] text-center">
+				<div className="mx-auto mb-10 max-w-[550px] text-center md:mb-12">
 					<p className="mb-3 font-medium leading-[1.3] uppercase tracking-wide">
 						Proof Points
 					</p>
@@ -47,6 +50,9 @@ export function Testimonials() {
 							>
 								<div className="flex h-full flex-col rounded border border-dashed border-gray-100 p-6 dark:border-white/10 sm:p-8">
 									<div className="pb-7">
+										<span className="mb-4 inline-flex rounded-full bg-orange-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-orange-700">
+											{proof.label}
+										</span>
 										<h3 className="text-base font-semibold">{proof.name}</h3>
 									</div>
 									<p className="mb-7 flex-1 leading-[1.75] text-muted-foreground dark:text-white">

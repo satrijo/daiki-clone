@@ -1,4 +1,4 @@
-import { ChevronDown, Menu } from "lucide-react";
+import { ArrowRight, ChevronDown, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -179,9 +179,14 @@ function SiteHeader() {
 					</ul>
 
 					<div className="ml-auto hidden items-center lg:flex">
-						<Button asChild size="lg">
+						<Button
+							asChild
+							className="h-10 rounded-full px-5 shadow-sm hover:shadow-md"
+							size="lg"
+						>
 							<a href="https://api.whatsapp.com/send?phone=601114850067">
-								Free Website Audit
+								Book Free Audit
+								<ArrowRight className="ml-1 size-4 transition-transform group-hover/button:translate-x-0.5" />
 							</a>
 						</Button>
 					</div>
@@ -203,6 +208,16 @@ function SiteHeader() {
 									</li>
 								))}
 							</ul>
+							<Button
+								asChild
+								className="mt-4 h-11 w-full rounded-full"
+								size="lg"
+							>
+								<a href="https://api.whatsapp.com/send?phone=601114850067">
+									Book Free Audit
+									<ArrowRight className="ml-1 size-4" />
+								</a>
+							</Button>
 						</div>
 					</details>
 				</nav>
