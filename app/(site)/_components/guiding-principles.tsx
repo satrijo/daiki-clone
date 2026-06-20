@@ -29,10 +29,10 @@ const principles = [
 
 export function GuidingPrinciples() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden pt-10">
       <Container className="relative z-10">
         <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-2 xl:gap-x-24">
-          <Reveal className="relative mx-auto flex min-h-[260px] w-full max-w-[360px] items-center justify-end md:max-w-none md:justify-end">
+          <Reveal className="relative mx-auto flex min-h-[360px] w-full max-w-[360px] items-center justify-end md:max-w-none md:justify-end">
             <Image
               alt="Digital marketing dashboard preview"
               className="w-[70%] max-w-[250px] rounded-3xl object-cover lg:max-w-[320px] xl:max-w-[420px]"
@@ -74,7 +74,7 @@ export function GuidingPrinciples() {
                     key={principle.label}
                   >
                     <span className="flex size-10 items-center justify-center rounded-full bg-white shadow-sm ring-1 ring-black/5 dark:bg-card">
-                      <span className="flex size-8 items-center justify-center rounded-full bg-lime-100 text-foreground dark:bg-white/10 dark:text-primary">
+                      <span className="flex size-8 items-center justify-center rounded-full bg-orange-100 text-foreground dark:bg-white/10 dark:text-primary">
                         <Icon className="size-4" />
                       </span>
                     </span>
