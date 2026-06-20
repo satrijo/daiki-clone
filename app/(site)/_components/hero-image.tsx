@@ -35,26 +35,19 @@ export function HeroImage() {
 					<div className="md:col-span-6">
 						<div className="max-w-[550px]">
 							<p className="mb-3 font-medium leading-[1.3] uppercase tracking-wide">
-								Our Impact
+								Our Approach
 							</p>
 							<h2 className="text-3xl font-bold leading-[1.25] sm:text-4xl sm:leading-[1.3]">
-								A Decade of Digital Innovation &amp; Results
+								Digital growth starts with clarity.
 							</h2>
 						</div>
 					</div>
 					<div className="max-w-[590px] pb-0 md:col-span-6 md:py-10">
 						<p className="leading-7 text-muted-foreground">
-							Daiki Media has over 10 years of experience in the digital
-							marketing industry, delivering exceptional results. Our team of
-							experts creates customized solutions to help businesses grow
-							online and achieve their goals. We specialize in SEO, web
-							development, and digital marketing strategies that ensure
-							long-term success.
-							<br />
-							<br />
-							Whether you need to enhance your online presence or drive
-							measurable results, we’re here to transform your brand and help
-							you succeed in the competitive digital landscape.
+							We combine technical SEO, web development, content strategy, and
+							conversion-focused design to help businesses grow online. Every
+							project starts with understanding the business goal, then turning
+							that goal into a practical website and marketing strategy.
 						</p>
 					</div>
 				</div>

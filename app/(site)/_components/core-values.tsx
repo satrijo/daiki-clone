@@ -4,21 +4,21 @@ import { Container } from "@/components/shared/container";
 
 const coreValues = [
 	{
-		title: "Our Passion",
+		title: "Clear Strategy",
 		description:
-			"Our passion is delivering innovative digital solutions to help brands grow and thrive online.",
+			"We identify what the business needs before jumping into design or development.",
 		icon: "https://www.daikimedia.com/images/about/passion.svg",
 	},
 	{
-		title: "Transparency",
+		title: "Technical Quality",
 		description:
-			"Transparency is key at Daiki Media, ensuring clear communication and trust in every project.",
+			"We build websites with performance, SEO, and maintainability in mind.",
 		icon: "https://www.daikimedia.com/images/about/transparency.svg",
 	},
 	{
-		title: "Our Mission",
+		title: "Measurable Growth",
 		description:
-			"Daiki Media's mission is to empower businesses with innovative digital solutions for sustainable growth.",
+			"We focus on traffic, leads, conversions, and long-term results.",
 		icon: "https://www.daikimedia.com/images/about/mission.svg",
 	},
 ];
@@ -29,10 +29,10 @@ export function CoreValues() {
 			<Container>
 				<div className="mx-auto mb-10 max-w-[575px] text-center md:mb-12">
 					<p className="mb-3 font-medium leading-[1.3] uppercase tracking-wide">
-						Our Core Values
+						What We Focus On
 					</p>
 					<h2 className="text-3xl font-bold leading-[1.25] sm:text-4xl sm:leading-[1.3]">
-						Our Business Is Steered By Our Core Values
+						How We Help Brands Grow
 					</h2>
 				</div>
 

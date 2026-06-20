@@ -6,16 +6,24 @@ import { Reveal } from "@/components/shared/reveal";
 
 const principles = [
 	{
-		label: "Strategic Innovation",
+		label: "Audit the current website and search visibility",
 		icon: Lightbulb,
 	},
 	{
-		label: "Technical Mastery",
+		label: "Identify technical and content gaps",
 		icon: Boxes,
 	},
 	{
-		label: "Crypto connection",
+		label: "Improve page structure, speed, and SEO foundation",
 		icon: Gem,
+	},
+	{
+		label: "Build clear landing pages with stronger conversion flow",
+		icon: Lightbulb,
+	},
+	{
+		label: "Track results and improve continuously",
+		icon: Boxes,
 	},
 ];
 
@@ -45,14 +53,15 @@ export function GuidingPrinciples() {
 
 					<div className="text-left max-md:text-center">
 						<p className="mb-3 font-medium leading-[1.3] uppercase tracking-wide">
-							Our Guiding Principles
+							How We Work
 						</p>
 						<h2 className="mb-6 text-3xl font-bold leading-tight sm:text-4xl md:mb-8">
-							The Core Philosophy That Drives Our Organization.
+							A practical workflow for better website performance.
 						</h2>
 						<p className="mb-11 text-muted-foreground leading-7 max-md:mb-6">
-							Our core philosophy focuses on delivering innovative digital
-							solutions that drive measurable success and growth for clients.
+							We turn business goals into a focused website and marketing plan,
+							then improve it with data, technical quality, and clear conversion
+							paths.
 						</p>
 
 						<ul className="mb-10 space-y-4 md:mb-14 md:space-y-6">

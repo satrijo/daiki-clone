@@ -1,36 +1,21 @@
 import { Container } from "@/components/shared/container";
 import { Reveal } from "@/components/shared/reveal";
 
-const testimonials = [
+const proofPoints = [
 	{
-		name: "Hauz Capital",
+		name: "SEO Visibility",
 		quote:
-			"We hired this SEO agency in Kuala Lumpur to improve our online visibility, and the results have been fantastic! They offered a complete strategy, from on-page SEO to building good quality backlinks that actually made a difference. Our organic traffic has grown, and our rankings have improved across multiple keywords. The team was knowledgeable and always available for updates. If you need the best SEO services in KL, this agency is the one to go with!",
+			"Improve page structure, technical SEO, and content direction so your website can attract more qualified organic traffic.",
 	},
 	{
-		name: "Tehmina Bukhari",
+		name: "Website Performance",
 		quote:
-			"This team is simply the best when it comes to digital marketing and search engine optimization. Their expertise in SEO has helped my business stay ahead of the competition and reach a wider audience. I couldn't be happier with their results and highly recommend them to any business looking to improve their online marketing efforts.",
+			"Build faster, clearer pages that support better user experience and stronger conversion paths.",
 	},
 	{
-		name: "Babar Hussain",
+		name: "Conversion Flow",
 		quote:
-			"I have been working with this SEO agency for several months now and I am beyond impressed with their digital marketing and search engine optimization skills. Their team is knowledgeable, friendly, and always available to answer any questions I have. I highly recommend them for anyone looking to improve their online visibility and drive more traffic to their website.",
-	},
-	{
-		name: "Bilal Rawn",
-		quote:
-			"I recently hired this SEO agency for its digital marketing expertise and I am extremely impressed with the results. They have a deep understanding of search marketing and SEO and have helped my business achieve higher search engine rankings and increased online visibility. I highly recommend them to anyone looking to improve their online presence.",
-	},
-	{
-		name: "Muhammad Adnan Rana",
-		quote:
-			"If you're looking for a top-notch SEO agency that specializes in digital marketing and search marketing, look no further. This team is professional, knowledgeable, and always delivers results. I have seen a significant increase in my online visibility and search engine rankings since hiring them. I highly recommend them to any business looking to improve their online presence.",
-	},
-	{
-		name: "MD. Shafayatul Haque",
-		quote:
-			"Daiki Media has made my business smooth. They are great with SEO and WordPress development which is far better than any other service provider. They provide website with 90+ google page speed score, which makes it easier to rank the website on Google.",
+			"Turn visitors into leads with focused messaging, stronger calls to action, and practical landing page improvements.",
 	},
 ];
 
@@ -40,10 +25,10 @@ export function Testimonials() {
 			<Container className="relative">
 				<div className="mx-auto mb-12 max-w-[550px] text-center">
 					<p className="mb-3 font-medium leading-[1.3] uppercase tracking-wide">
-						Testimonials
+						Proof Points
 					</p>
 					<h2 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-						What our customer’s say about our company
+						Where better digital strategy creates measurable impact
 					</h2>
 				</div>
 
@@ -53,22 +38,20 @@ export function Testimonials() {
 						className="absolute left-1/2 top-1/2 -z-10 size-[520px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange-300/20 blur-[145px]"
 					/>
 
-					<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-						{testimonials.map((testimonial, index) => (
+					<div className="grid gap-6 md:grid-cols-3">
+						{proofPoints.map((proof, index) => (
 							<Reveal
 								className="rounded-md bg-white p-2.5 shadow-sm dark:bg-card"
-								delay={(index % 3) * 100}
-								key={testimonial.name}
+								delay={index * 100}
+								key={proof.name}
 							>
 								<div className="flex h-full flex-col rounded border border-dashed border-gray-100 p-6 dark:border-white/10 sm:p-8">
 									<div className="pb-7">
-										<h3 className="text-base font-semibold">
-											{testimonial.name}
-										</h3>
+										<h3 className="text-base font-semibold">{proof.name}</h3>
 									</div>
-									<blockquote className="mb-7 flex-1 italic leading-[1.75] text-muted-foreground dark:text-white">
-										“{testimonial.quote}”
-									</blockquote>
+									<p className="mb-7 flex-1 leading-[1.75] text-muted-foreground dark:text-white">
+										{proof.quote}
+									</p>
 									<div className="border-t border-dashed border-gray-100 pt-7 dark:border-white/10" />
 								</div>
 							</Reveal>

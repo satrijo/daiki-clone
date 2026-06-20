@@ -30,15 +30,15 @@ export function GetStarted() {
 
 				<div className="mx-auto text-center">
 					<h2 className="mx-auto mb-5 max-w-[800px] text-3xl font-semibold leading-tight tracking-tight sm:text-4xl md:text-5xl">
-						Start Your Digital Transformation Journey Today!
+						Ready to improve your website performance?
 					</h2>
-					<p className="mx-auto mb-12 max-w-[400px] text-muted-foreground leading-7 max-lg:mt-6">
-						By partnering with Daiki Media for your digital needs, we&apos;ll
-						transform your vision into measurable success.
+					<p className="mx-auto mb-12 max-w-[520px] text-muted-foreground leading-7 max-lg:mt-6">
+						Let&apos;s review your website and find practical ways to improve
+						speed, SEO, and conversions.
 					</p>
 
 					<Button asChild size="lg">
-						<Link href="/contact">Get Started Today</Link>
+						<Link href="/contact">Book a Free Website Audit</Link>
 					</Button>
 
 					<ul className="mx-auto mt-8 flex max-w-[815px] flex-col items-center justify-between gap-5 lg:mt-20 lg:flex-row">
